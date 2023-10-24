@@ -1,4 +1,5 @@
 # vite-tailwind-json
+这是一个使用json-server的模拟服务器
 
 vscode内打开vite-tailwind-json
 控制台中运行bash server.sh
