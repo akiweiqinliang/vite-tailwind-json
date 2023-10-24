@@ -1,0 +1,947 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "collection2": [
+    {
+      "id": 0,
+      "name": "json-server",
+      "url": "https://github.com/akiweiqinliang/json-server",
+      "about": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
+      "type": "websites"
+    },
+    {
+      "id": 1,
+      "name": "现代JavaScript教程",
+      "url": "https://zh.javascript.info/",
+      "about": "learning javascript",
+      "type": "websites"
+    },
+    {
+      "id": 2,
+      "name": "Vite官网",
+      "url": "https://cn.vitejs.dev/",
+      "about": "官方中文文档",
+      "type": "websites"
+    },
+    {
+      "id": 3,
+      "name": "酷壳",
+      "url": "https://coolshell.cn/articles/5426.html",
+      "about": "vim指令学习",
+      "type": "websites"
+    },
+    {
+      "id": 4,
+      "name": "网络是如何连接的——户根勤.pdf",
+      "url": "https://github.com/tongxurt/pdfs/blob/master/%E7%BD%91%E7%BB%9C%E6%98%AF%E6%80%8E%E6%A0%B7%E8%BF%9E%E6%8E%A5%E7%9A%84_%E6%88%B7%E6%A0%B9%E5%8B%A4.pdf",
+      "about": "计算机网络方面学习",
+      "type": "websites"
+    },
+    {
+      "id": 5,
+      "name": "landingfolio",
+      "url": "https://www.landingfolio.com/",
+      "about": "可供参考网站",
+      "type": "websites"
+    },
+    {
+      "id": 6,
+      "name": "photopea",
+      "url": "https://www.photopea.com/",
+      "about": "在线修图网站",
+      "type": "websites"
+    },
+    {
+      "id": 7,
+      "name": "NuxtJS",
+      "url": "https://www.nuxtjs.cn/guides/get-started/installation",
+      "about": "方便seo的ssr框架（Vue）",
+      "type": "websites"
+    },
+    {
+      "id": 8,
+      "name": "tailwind",
+      "url": "https://tailwindui.com/",
+      "about": "很细",
+      "type": "libraries"
+    },
+    {
+      "id": 9,
+      "name": "quasar",
+      "url": "https://v1.quasar.dev/",
+      "about": "Make sure that you have Node >=10 and NPM >=5 installed on your machine，v1适合vue2，v2适合vue3",
+      "type": "libraries"
+    },
+    {
+      "id": 10,
+      "name": "View UI",
+      "url": "https://v4.iviewui.com/docs/introduce",
+      "about": "国产组件库，vue3用plus",
+      "type": "libraries"
+    },
+    {
+      "id": 11,
+      "name": "anime.js",
+      "url": "https://animejs.com/",
+      "about": "动画库，蛮齐",
+      "type": "libraries"
+    },
+    {
+      "id": 12,
+      "name": "chart.js",
+      "url": "https://www.chartjs.org/docs/latest/samples/advanced/linear-gradient.html",
+      "about": "做统计图的库",
+      "type": "libraries"
+    },
+    {
+      "id": 13,
+      "name": "parallax",
+      "url": "https://github.com/wagerfield/parallax",
+      "about": "跟随鼠标移动实现场景3D效果库",
+      "type": "libraries"
+    },
+    {
+      "id": 14,
+      "name": "semantic-ui",
+      "url": "https://semantic-ui.com/",
+      "about": "纯css样式库，只需添加类名即可实现效果",
+      "type": "libraries"
+    },
+    {
+      "id": 15,
+      "name": "hyperui",
+      "url": "https://www.hyperui.dev/",
+      "about": "基于tailwind的组件库",
+      "type": "libraries"
+    },
+    {
+      "id": 16,
+      "name": "pexels",
+      "url": "https://www.pexels.com/zh-cn/",
+      "about": "免费图片库，精美，多竖幅",
+      "type": "resources"
+    },
+    {
+      "type": "libraries",
+      "name": "quill",
+      "url": "https://quilljs.com/",
+      "about": "富文本编辑器",
+      "id": 17
+    },
+    {
+      "type": "articles",
+      "name": "富文本编辑器vue-quill-editor使用心得",
+      "url": "https://juejin.cn/post/6844904002576973832",
+      "about": "踩坑汇总和推荐图片调节插件",
+      "id": 18
+    },
+    {
+      "type": "deploy",
+      "name": "railway",
+      "url": "https://railway.app/",
+      "about": "部署网站",
+      "id": 19
+    },
+    {
+      "type": "deploy",
+      "name": "netlify",
+      "url": "https://www.netlify.com/",
+      "about": "部署网站",
+      "id": 20
+    },
+    {
+      "type": "deploy",
+      "name": "planetscale",
+      "url": "https://planetscale.com/",
+      "about": "免费数据库",
+      "id": 21
+    },
+    {
+      "type": "deploy",
+      "name": "render",
+      "url": "https://render.com/",
+      "about": "免费部署网站，功能较齐",
+      "id": 22
+    },
+    {
+      "type": "articles",
+      "name": "webpack配置相关教程",
+      "url": "https://neighborhood999.github.io/webpack-tutorial-gitbook/Part1/",
+      "about": "GitHub上面的",
+      "id": 23
+    },
+    {
+      "type": "websites",
+      "name": "webpack",
+      "url": "https://webpack.docschina.org/concepts/",
+      "about": "webpack5官方中文文档，方便查plugin和loader",
+      "id": 24
+    },
+    {
+      "type": "articles",
+      "name": "babel配置解析, 以及babel6和babel7的区别",
+      "url": "https://www.cnblogs.com/smart-elwin/p/15858568.html",
+      "about": "比较详细，22年的文章",
+      "id": 25
+    },
+    {
+      "type": "articles",
+      "name": "博客园改个人中心样式教程",
+      "url": "https://www.cnblogs.com/bndong/p/9132439.html",
+      "about": "原作者GitHub可根据文章内容找到",
+      "id": 26
+    },
+    {
+      "type": "articles",
+      "name": "webpack5配置实例",
+      "url": "https://segmentfault.com/a/1190000040251317",
+      "about": "详细",
+      "id": 27
+    }
+  ],
+  "books": [
+    {
+      "id": 10,
+      "name": "一百个人的十年",
+      "url": "https://www.99csw.com/book/2637/index.htm",
+      "author": "冯骥才",
+      "type": "现代文学",
+      "introduction": "冯骥才著纪实文学作品，收文29篇，记录了29位平民在文化大革命中的不幸遭遇。"
+    },
+    {
+      "id": 11,
+      "name": "白鹿原",
+      "url": "https://www.51shucheng.net/xiandai/bailuyuan",
+      "author": "陈忠实",
+      "type": "现代文学",
+      "introduction": "《白鹿原》这是一部渭河平原50年变迁的雄奇史诗，一轴中国农村斑斓多彩，触目惊心的长幅画卷。主人公六娶六丧，神秘的序曲预示着不祥。一个家庭两代子孙，为争夺白鹿原的统治代代争斗不已，上演了一幕幕惊心动魄的话剧；巧取风水地，恶施美人计，孝子为匪，亲翁杀媳，兄弟相煎，情人反目……大革命，日寇入侵，三年内战，白鹿原翻云覆雨，王旗变幻，家仇国恨，交错缠结，冤冤相报代代不已……古老的土地在新生的阵痛中颤栗。"
+    },
+    {
+      "id": 12,
+      "name": "蛙",
+      "url": "https://www.51shucheng.net/xiandai/wa",
+      "author": "莫言",
+      "type": "现代文学",
+      "introduction": "本书为莫言于2002年动笔，又于2007年重起炉灶，完成于2009年的一部长篇小说。小说由剧作家蝌蚪写给日本作家杉谷义人的五封书信、四部长篇叙事和一部话剧组成，主要以在高密东北乡从事了一生妇科医生的“姑姑”的人生经历为线索，叙述了新中国几十年来波澜壮阔的生育史，又毫不避讳地揭露了当下中国生育问题上的混乱景象。莫言自谓，《蛙》这部小说是对自己人生几十年的回顾，在很多冠冕堂皇的借口之下，掩藏着很多个人的私念和私心。《蛙》有一个重要的意义，这个重要的意义是面对自我，是面对自己的内心进行挖掘，是一种自我批评的精神。“写完这部书后，有八个大字沉重地压着我的心头，那就是：他人有罪，我亦有罪。”本书获中国最高文学奖——“茅盾文学奖”（第八届）。"
+    }
+  ],
+  "todos": [
+    {
+      "date": "Tue Oct 9 2023",
+      "text": "荷塘小炒荷塘小炒荷塘小炒荷塘小炒荷塘小炒荷塘小炒荷塘小炒荷塘小炒荷塘小炒荷塘小炒荷塘小炒荷塘小炒荷塘小炒荷塘小炒荷塘小炒荷塘小炒",
+      "deleteState": false,
+      "done": true,
+      "id": 8
+    },
+    {
+      "date": "Tue Oct 9 2023",
+      "text": "荷塘小炒",
+      "deleteState": false,
+      "done": true,
+      "id": 11
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "羊肚菌猪骨汤",
+      "done": false,
+      "deleteState": true,
+      "id": 12
+    },
+    {
+      "true": "",
+      "id": 14
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "藕夹的难度",
+      "done": false,
+      "deleteState": true,
+      "id": 15
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "aaaaaaaaaaaaaaa",
+      "done": false,
+      "deleteState": true,
+      "id": 16
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "3333333333",
+      "done": false,
+      "deleteState": true,
+      "id": 17
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "aaaaaaaaaaaaaa",
+      "done": false,
+      "deleteState": true,
+      "id": 18
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "美滋滋",
+      "done": false,
+      "deleteState": true,
+      "id": 19
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "？\n",
+      "done": false,
+      "deleteState": true,
+      "id": 20
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "为什么不在前面",
+      "done": false,
+      "deleteState": true,
+      "id": 21
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "啊啊啊啊啊啊啊啊啊啊啊",
+      "done": false,
+      "deleteState": true,
+      "id": 22
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "啊啊啊",
+      "done": true,
+      "deleteState": true,
+      "id": 23
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "1",
+      "done": true,
+      "deleteState": true,
+      "id": 24
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "2",
+      "done": true,
+      "deleteState": true,
+      "id": 25
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "3",
+      "done": true,
+      "deleteState": true,
+      "id": 26
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "好吧啊",
+      "done": false,
+      "deleteState": true,
+      "id": 27
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "1111",
+      "done": true,
+      "deleteState": true,
+      "id": 28
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "88888888",
+      "done": false,
+      "deleteState": true,
+      "id": 29
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "好吧",
+      "done": false,
+      "deleteState": true,
+      "id": 30
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "拿面包快递，5栋",
+      "deleteState": false,
+      "done": true,
+      "id": 31
+    },
+    {
+      "date": "Tue Oct 10 2023",
+      "text": "怎么感觉卡卡的",
+      "done": false,
+      "deleteState": true,
+      "id": 32
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "写登录页",
+      "deleteState": false,
+      "done": true,
+      "id": 33
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "写富文本框在about",
+      "done": false,
+      "deleteState": true,
+      "id": 34
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "改about名字",
+      "done": false,
+      "deleteState": true,
+      "id": 35
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "33333333333333333333\n",
+      "done": false,
+      "deleteState": true,
+      "id": 36
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "2222222222\n",
+      "done": false,
+      "deleteState": true,
+      "id": 37
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "2\n",
+      "done": false,
+      "deleteState": true,
+      "id": 38
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "2222222222\n",
+      "done": false,
+      "deleteState": true,
+      "id": 39
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "11111111111\n",
+      "done": false,
+      "deleteState": true,
+      "id": 40
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "aaaaaaaaaaa",
+      "done": false,
+      "deleteState": true,
+      "id": 41
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "aaaaaaaaaa\n",
+      "done": false,
+      "deleteState": true,
+      "id": 42
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "aaaaaaaaaaa\n",
+      "done": false,
+      "deleteState": true,
+      "id": 43
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "九分裤比较宽松\n",
+      "done": false,
+      "deleteState": true,
+      "id": 44
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "aaaaaaaaaa",
+      "done": false,
+      "deleteState": true,
+      "id": 45
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "写一个good morning/afternoon提示",
+      "done": false,
+      "deleteState": true,
+      "id": 46
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "11\n11",
+      "done": false,
+      "deleteState": true,
+      "id": 47
+    },
+    {
+      "date": "Wed Oct 11 2023",
+      "text": "a",
+      "done": false,
+      "deleteState": true,
+      "id": 48
+    },
+    {
+      "date": "Thu Oct 12 2023",
+      "text": "完成collection网站下拉菜单点击分类显示",
+      "deleteState": false,
+      "done": true,
+      "id": 49
+    },
+    {
+      "date": "Thu Oct 12 2023",
+      "text": "aa",
+      "done": false,
+      "deleteState": true,
+      "id": 50
+    },
+    {
+      "date": "Thu Oct 12 2023",
+      "text": "collection添加新增功能",
+      "deleteState": false,
+      "done": true,
+      "id": 51
+    },
+    {
+      "date": "Thu Oct 12 2023",
+      "text": "dashboard页新增书写event列表，要求使用富文本",
+      "deleteState": false,
+      "done": true,
+      "id": 52
+    },
+    {
+      "date": "Fri Oct 13 2023",
+      "text": "找书签系统",
+      "deleteState": false,
+      "done": true,
+      "id": 53
+    },
+    {
+      "date": "Fri Oct 13 2023",
+      "text": "q q q q q ",
+      "done": false,
+      "deleteState": true,
+      "id": 54
+    },
+    {
+      "date": "Mon Oct 16 2023",
+      "text": "aaaaaa",
+      "done": true,
+      "deleteState": true,
+      "id": 55
+    },
+    {
+      "date": "Mon Oct 16 2023",
+      "text": "sss",
+      "done": true,
+      "deleteState": true,
+      "id": 56
+    },
+    {
+      "date": "Mon Oct 16 2023",
+      "text": "aaaa",
+      "done": false,
+      "deleteState": true,
+      "id": 57
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "collection页新增搜索功能",
+      "deleteState": false,
+      "done": true,
+      "id": 58
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "111111111111",
+      "done": false,
+      "deleteState": true,
+      "id": 59
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "qqqqqqqqq",
+      "done": false,
+      "deleteState": true,
+      "id": 60
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "111111111",
+      "done": false,
+      "deleteState": true,
+      "id": 61
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "11111111111",
+      "done": false,
+      "deleteState": true,
+      "id": 62
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "111111111111",
+      "done": false,
+      "deleteState": true,
+      "id": 63
+    },
+    {
+      "date": "Wed Oct 18 2023",
+      "text": "1",
+      "deleteState": false,
+      "done": true,
+      "id": 64
+    },
+    {
+      "date": "Wed Oct 18 2023",
+      "text": "1",
+      "done": false,
+      "deleteState": true,
+      "id": 65
+    },
+    {
+      "date": "Thu Oct 19 2023",
+      "text": "hello koko",
+      "deleteState": false,
+      "done": true,
+      "id": 66
+    },
+    {
+      "date": "Thu Oct 19 2023",
+      "text": "hello aki",
+      "deleteState": false,
+      "done": true,
+      "id": 67
+    },
+    {
+      "date": "Thu Oct 19 2023",
+      "text": "docker",
+      "done": false,
+      "deleteState": true,
+      "id": 68
+    },
+    {
+      "date": "Thu Oct 19 2023",
+      "text": "了解一下Docker",
+      "done": false,
+      "deleteState": false,
+      "id": 69
+    },
+    {
+      "date": "Mon Oct 23 2023",
+      "text": "webpack优化",
+      "done": false,
+      "deleteState": false,
+      "id": 70
+    }
+  ],
+  "events": [
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "<p>aaaaaaa</p>",
+      "done": false,
+      "deleteState": true,
+      "id": 1
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "<h3><span class=\"ql-font-serif\" style=\"color: rgb(250, 204, 204);\">happy</span></h3>",
+      "done": false,
+      "deleteState": true,
+      "id": 2
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "<p>what about to do something nobody can do but me</p><ol><li>play</li><li>laugh</li><li>111</li></ol>",
+      "done": false,
+      "deleteState": true,
+      "id": 3
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "<p>aaaaaaaaa</p>",
+      "done": false,
+      "deleteState": true,
+      "id": 4
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "<p>aaaaaaaaa</p>",
+      "done": false,
+      "deleteState": true,
+      "id": 5
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "<p>aaaaaaaaaaaa</p>",
+      "done": false,
+      "deleteState": true,
+      "id": 6
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "<p>aaaaaaaaaaaaaaaaaaaaa</p>",
+      "done": false,
+      "deleteState": true,
+      "id": 7
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "<p>aaaaaaaaaaaaaaaaaaaaa</p>",
+      "done": false,
+      "deleteState": true,
+      "id": 8
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "<p><span style=\"background-color: rgb(255, 194, 102);\">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span></p>",
+      "done": false,
+      "deleteState": true,
+      "id": 9
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "<h1 class=\"ql-align-center\">野餐计划</h1><ol><li>生生世世生生世世生生世世生生世世</li><li>dddddddddd</li><li>dddddddddddddd</li><li>ddddddddddd</li></ol>",
+      "done": false,
+      "deleteState": true,
+      "id": 10
+    },
+    {
+      "date": "Tue Oct 17 2023",
+      "text": "<p>周二晚餐</p><ul><li>煎蛋肠</li><li>白灼菜心</li><li>孜然烤鸡胸肉片</li></ul><p>周三午餐</p><ul><li>豆角炒牛肉</li><li>黄瓜木耳鸡蛋脆皮肠</li><li>蒸馒头*2</li></ul>",
+      "done": false,
+      "deleteState": false,
+      "id": 11
+    },
+    {
+      "date": "Wed Oct 18 2023",
+      "text": "<p>1</p>",
+      "done": false,
+      "deleteState": true,
+      "id": 12
+    },
+    {
+      "date": "Thu Oct 19 2023",
+      "text": "<p>常用webpack配置</p><pre class=\"ql-syntax\" spellcheck=\"false\">const path = require('path');\nconst HtmlWebpackPlugin = require('html-webpack-plugin');\nconst MiniCssExtractPlugin = require('mini-css-extract-plugin');\nconst TerserPlugin = require('terser-webpack-plugin');\nconst OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');\n\n\nmodule.exports = {\n&nbsp; entry: './src/index.js',\n&nbsp; output: {\n&nbsp; &nbsp; path: path.resolve(__dirname, 'dist'),\n&nbsp; &nbsp; filename: 'bundle.js',\n&nbsp; },\n&nbsp; module: {\n&nbsp; &nbsp; rules: [\n&nbsp; &nbsp; &nbsp; {\n&nbsp; &nbsp; &nbsp; &nbsp; test: /\\.js$/,\n&nbsp; &nbsp; &nbsp; &nbsp; exclude: /node_modules/,\n&nbsp; &nbsp; &nbsp; &nbsp; use: 'babel-loader',\n&nbsp; &nbsp; &nbsp; },\n&nbsp; &nbsp; &nbsp; {\n&nbsp; &nbsp; &nbsp; &nbsp; test: /\\.css$/,\n&nbsp; &nbsp; &nbsp; &nbsp; use: [MiniCssExtractPlugin.loader, 'css-loader'],\n&nbsp; &nbsp; &nbsp; },\n&nbsp; &nbsp; &nbsp; {\n&nbsp; &nbsp; &nbsp; &nbsp; test: /\\.(png|jpg|gif)$/,\n&nbsp; &nbsp; &nbsp; &nbsp; use: 'file-loader',\n&nbsp; &nbsp; &nbsp; },\n&nbsp; &nbsp; ],\n&nbsp; },\n&nbsp; plugins: [\n&nbsp; &nbsp; new HtmlWebpackPlugin({\n&nbsp; &nbsp; &nbsp; template: './src/index.html',\n&nbsp; &nbsp; }),\n&nbsp; &nbsp; new MiniCssExtractPlugin({\n&nbsp; &nbsp; &nbsp; filename: 'styles.css',\n&nbsp; &nbsp; }),\n&nbsp; ],\n&nbsp; optimization: {\n&nbsp; &nbsp; minimizer: [\n&nbsp; &nbsp; &nbsp; new TerserPlugin(),\n&nbsp; &nbsp; &nbsp; new OptimizeCSSAssetsPlugin(),\n&nbsp; &nbsp; ],\n&nbsp; },\n&nbsp; devServer: {\n&nbsp; &nbsp; contentBase: path.resolve(__dirname, 'dist'),\n&nbsp; &nbsp; port: 8080,\n&nbsp; },\n};\n\n\n</pre>",
+      "done": false,
+      "deleteState": false,
+      "id": 13
+    },
+    {
+      "date": "Thu Oct 19 2023",
+      "text": "<p>在Webpack中，`optimization`（优化）是一个配置选项，用于优化打包输出的结果。它提供了一系列的优化策略和插件，可以帮助减小打包文件的体积、提升加载速度和性能。</p><p><br></p><p>下面是一些常见的`optimization`选项和它们的作用：</p><p><br></p><p>1. `minimize`: 默认情况下，Webpack会使用`UglifyJsPlugin`插件对输出的JavaScript代码进行压缩和混淆，以减小文件体积。你可以通过将`minimize`设置为`false`来禁用此优化。</p><p><br></p><p>2. `minimizer`: 通过配置`minimizer`选项，你可以指定使用哪些插件来压缩代码。常见的插件有`TerserPlugin`和`CssMinimizerPlugin`，它们分别用于压缩JavaScript和CSS代码。</p><p><br></p><p>3. `splitChunks`: 通过配置`splitChunks`选项，你可以将代码分割成多个块，以提升缓存利用率和加载性能。这个选项可以将公共的模块提取到单独的文件中，避免重复加载和提供长期缓存。</p><p><br></p><p>4. `runtimeChunk`: 通过配置`runtimeChunk`选项，你可以将Webpack的运行时代码提取到一个单独的文件中。这样可以避免每次打包时运行时代码的变化导致缓存失效，从而提升缓存利用率。</p><p><br></p><p>5. `moduleIds` 和 `chunkIds`: 这两个选项可以配置模块和块（chunk）的标识符生成方式。通过配置不同的算法，你可以控制输出文件的名称和结构，以便更好地利用缓存。</p><p><br></p><p>6. `occurrenceOrder`: 默认情况下，Webpack会根据模块的使用频率来决定模块的输出顺序，以便更好地利用缓存。你可以通过将`occurrenceOrder`设置为`true`来启用这个优化。</p><p><br></p><p>这只是`optimization`选项中的一些常见配置，Webpack还提供了其他一些优化策略和插件，可以根据具体的项目需求进行配置。通过优化打包输出的结果，你可以减小文件体积、提升加载速度，并提高应用程序的性能。</p>",
+      "done": false,
+      "deleteState": false,
+      "id": 14
+    },
+    {
+      "date": "Fri Oct 20 2023",
+      "text": "<p>野餐</p><ol><li>三明治（煎蛋，生菜，烤肠，蕃茄酱）+饭团（烤肠，玉米，紫菜，黄瓜粒，沙拉酱）</li><li>鸭锁骨</li><li>烤啵啵肠牛肉丸薯条</li><li>奇异果火龙果</li><li>雪王桑葚/东方树叶</li></ol><p>备注</p><ol><li>野餐垫</li><li>驱蚊水</li><li>充电宝</li><li>耳机</li><li>画本颜料/iPad</li></ol>",
+      "deleteState": false,
+      "done": true,
+      "id": 15
+    },
+    {
+      "date": "Fri Oct 20 2023",
+      "text": "<p>晚餐</p><ol><li>白灼虾</li><li>猪耳朵</li><li>米饭</li><li>紫菜蛋花汤</li></ol><p>备注</p><ol><li>腌叉烧</li></ol>",
+      "deleteState": false,
+      "done": true,
+      "id": 16
+    },
+    {
+      "date": "Mon Oct 23 2023",
+      "text": "<p>周一晚餐</p><ol><li>鱼豆腐生菜番茄虾滑拉面</li></ol><p>周二午餐</p><ol><li>牛肉炒青红椒</li><li>清炒红苋菜</li><li>米饭</li></ol>",
+      "done": false,
+      "deleteState": false,
+      "id": 17
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "userName": "aaa",
+      "password": "123",
+      "email": "aaa@163.com",
+      "phoneNumber": "13724116512",
+      "id": 1
+    },
+    {
+      "userName": "aki",
+      "password": "123",
+      "email": "weiqin.liang@gpted.com",
+      "phoneNumber": "13724116512",
+      "id": 2
+    },
+    {
+      "userName": "liu",
+      "password": "123",
+      "email": "aaa@163.com",
+      "phoneNumber": "13724116512",
+      "id": 3
+    },
+    {
+      "userName": "konse",
+      "password": "321",
+      "email": "575817963@qq.com",
+      "phoneNumber": "13250286413",
+      "id": 4
+    },
+    {
+      "userName": "konse",
+      "password": "321",
+      "email": "575817963@qq.com",
+      "phoneNumber": "13250286413",
+      "id": 5
+    }
+  ],
+  "collection": {
+    "websites": [
+      {
+        "id": 0,
+        "name": "json-server",
+        "url": "https://github.com/akiweiqinliang/json-server",
+        "about": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
+        "type": "websites"
+      },
+      {
+        "id": 1,
+        "name": "现代JavaScript教程",
+        "url": "https://zh.javascript.info/",
+        "about": "learning javascript",
+        "type": "websites"
+      },
+      {
+        "id": 2,
+        "name": "Vite官网",
+        "url": "https://cn.vitejs.dev/",
+        "about": "官方中文文档",
+        "type": "websites"
+      },
+      {
+        "id": 3,
+        "name": "酷壳",
+        "url": "https://coolshell.cn/articles/5426.html",
+        "about": "vim指令学习",
+        "type": "websites"
+      },
+      {
+        "id": 4,
+        "name": "网络是如何连接的——户根勤.pdf",
+        "url": "https://github.com/tongxurt/pdfs/blob/master/%E7%BD%91%E7%BB%9C%E6%98%AF%E6%80%8E%E6%A0%B7%E8%BF%9E%E6%8E%A5%E7%9A%84_%E6%88%B7%E6%A0%B9%E5%8B%A4.pdf",
+        "about": "计算机网络方面学习",
+        "type": "websites"
+      },
+      {
+        "id": 5,
+        "name": "landingfolio",
+        "url": "https://www.landingfolio.com/",
+        "about": "可供参考网站",
+        "type": "websites"
+      },
+      {
+        "id": 6,
+        "name": "photopea",
+        "url": "https://www.photopea.com/",
+        "about": "在线修图网站",
+        "type": "websites"
+      },
+      {
+        "id": 7,
+        "name": "NuxtJS",
+        "url": "https://www.nuxtjs.cn/guides/get-started/installation",
+        "about": "方便seo的ssr框架（Vue）",
+        "type": "websites"
+      }
+    ],
+    "libraries": [
+      {
+        "id": 5,
+        "name": "tailwind",
+        "url": "https://tailwindui.com/",
+        "about": "很细",
+        "type": "libraries"
+      },
+      {
+        "id": 6,
+        "name": "quasar",
+        "url": "https://v1.quasar.dev/",
+        "about": "Make sure that you have Node >=10 and NPM >=5 installed on your machine，v1适合vue2，v2适合vue3",
+        "type": "libraries"
+      },
+      {
+        "id": 7,
+        "name": "View UI",
+        "url": "https://v4.iviewui.com/docs/introduce",
+        "about": "国产组件库，vue3用plus",
+        "type": "libraries"
+      },
+      {
+        "id": 8,
+        "name": "anime.js",
+        "url": "https://animejs.com/",
+        "about": "动画库，蛮齐",
+        "type": "libraries"
+      },
+      {
+        "id": 9,
+        "name": "chart.js",
+        "url": "https://www.chartjs.org/docs/latest/samples/advanced/linear-gradient.html",
+        "about": "做统计图的库",
+        "type": "libraries"
+      },
+      {
+        "id": 10,
+        "name": "parallax",
+        "url": "https://github.com/wagerfield/parallax",
+        "about": "跟随鼠标移动实现场景3D效果库",
+        "type": "libraries"
+      },
+      {
+        "id": 11,
+        "name": "semantic-ui",
+        "url": "https://semantic-ui.com/",
+        "about": "纯css样式库，只需添加类名即可实现效果",
+        "type": "libraries"
+      },
+      {
+        "id": 12,
+        "name": "hyperui",
+        "url": "https://www.hyperui.dev/",
+        "about": "基于tailwind的组件库",
+        "type": "libraries"
+      }
+    ],
+    "resources": [
+      {
+        "id": 20,
+        "name": "pexels",
+        "url": "https://www.pexels.com/zh-cn/",
+        "about": "免费图片库，精美，多竖幅",
+        "type": "resources"
+      }
+    ]
+  }
+}
